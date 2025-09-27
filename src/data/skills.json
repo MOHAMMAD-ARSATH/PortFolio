@@ -1,0 +1,72 @@
+[
+  {
+    "skillId": 1,
+    "skill": "HTML",
+    "image": "assets/skills/html.png"
+  },
+  {
+    "skillId": 2,
+    "skill": "CSS",
+    "image": "assets/skills/css.png"
+  },
+  {
+    "skillId": 3,
+    "skill": "Bootstrap",
+    "image": "assets/skills/bootstrap.png"
+  },
+  {
+    "skillId": 4,
+    "skill": "Tailwind CSS",
+    "image": "assets/skills/tailwindcss.png"
+  },
+  {
+    "skillId": 5,
+    "skill": "JavaScript",
+    "image": "assets/skills/javascript.png"
+  },
+  {
+    "skillId": 6,
+    "skill": "React JS",
+    "image": "assets/skills/reactjs.png"
+  },
+  {
+    "skillId": 7,
+    "skill": "Node JS",
+    "image": "assets/skills/nodejs.png"
+  },
+  {
+    "skillId": 8,
+    "skill": "Express JS",
+    "image": "assets/skills/expressjs.png"
+  },
+  {
+    "skillId": 9,
+    "skill": "MongoDB",
+    "image": "assets/skills/mongodb.png"
+  },
+  {
+    "skillId": 10,
+    "skill": "MySQL",
+    "image": "assets/skills/mysql.png"
+  },
+  {
+    "skillId": 11,
+    "skill": "PostgreSQL",
+    "image": "assets/skills/postgresql.png"
+  },
+  {
+    "skillId": 12,
+    "skill": "Firebase",
+    "image": "assets/skills/firebase.png"
+  },
+  {
+    "skillId": 13,
+    "skill": "Java & JSP",
+    "image": "assets/skills/java.png"
+  },
+  {
+    "skillId": 14,
+    "skill": "Python",
+    "image": "assets/skills/python.png"
+  }
+]

@@ -1,0 +1,85 @@
+[
+  {
+    "expId": 1,
+    "companyname": "Top Freshers Pvt. Ltd.",
+    "logo": "assets/experiences/topfreshers.png",
+    "location": "Chennai",
+    "role": "Research Associate Intern",
+    "period": "Feb 2023 - Apr 2023",
+    "mode": "Full Time | On-site",
+    "tasks": [
+      "Under Terv Pro, conducted Java training sessions for college students to support their placements, providing hands-on guidance and support.",
+      "Conducted a few technical sessions for students under the TN Naan Mudhalvan scheme during college.",
+      "Outcomes included gained valuable knowledge and built friendly coordination with both students and teammates, while receiving a monthly stipend during the internship period."
+    ],
+    "skillId": [13]
+  },
+
+  {
+    "expId": 2,
+    "companyname": "Montbleu Technologies Pvt. Ltd.",
+    "logo": "assets/experiences/montbleu.png",
+    "location": "Coimbatore",
+    "role": "Graduate Engineer Trainee",
+    "period": "Jun 2023 - Nov 2023",
+    "mode": "Full Time | On-site",
+    "tasks": [
+      "Under SmartCliff Learning Solutions, received full stack web development training on MERN through technical trainers.",
+      "Developed concept-based projects, completed assigned tasks within the given timeframe, and demonstrated the outcomes during the training period.",
+      "Overall, learned and completed real-time projects on full stack development, and interactions with trainers and teammates helped gain valuable development knowledge."
+    ],
+    "skillId": [1, 2, 3, 5, 6, 7, 8, 9, 10]
+  },
+
+  {
+    "expId": 3,
+    "companyname": "VeriTech Software Services",
+    "logo": "assets/experiences/veritech.png",
+    "location": "Pune",
+    "role": "Web Development Intern",
+    "period": "Jan 2024 - Feb 2024",
+    "mode": "Part Time | Remote",
+    "tasks": [
+      "Completed weekly assigned projects and their reports within the allocated time period.",
+      "Enhanced self-paced learning by acquiring new skills in web development while completing the assigned basic projects.",
+      "Outcomes included improved creativity skills and the ability to solve bugs independently in the projects."
+    ],
+    "skillId": [1, 2, 3, 4, 5, 6, 12]
+  },
+
+  {
+    "expId": 4,
+    "companyname": "TMARK Techs Pty Ltd.",
+    "logo": "assets/experiences/tmarks.png",
+    "location": "Syndey",
+    "role": "Software Developer",
+    "period": "Mar 2024 - Apr 2024",
+    "mode": "Part Time | Remote",
+    "tasks": [
+      "Received a freelancing offer through LinkedIn, completed project tasks via ClickUp within the allocated timeframe, and showcased the results through Teams.",
+      "Developed client-side scripts and custom web parts to retrieve data using JavaScript and jQuery in MS SharePoint.",
+      "Overall, learned and improved workflows in SharePoint and received a weekly stipend upon task completion."
+    ],
+    "skillId": [1, 2, 5]
+  },
+
+  {
+    "expId": 5,
+    "companyname": "AdroitSoft India Pvt. Ltd.",
+    "logo": "assets/experiences/adroit.png",
+    "location": "Chennai",
+    "role": "Software Engineer",
+    "period": "Apr 2024 - Present",
+    "mode": "Full Time | Remote",
+    "tasks": [
+      "Initially gained an in-depth understanding of hospital software workflow structures by working hands-on with MediSteer and Curengine platforms.",
+      "Led the end-to-end implementation of hospital management software across multiple healthcare facilities, including requirement analysis, environment setup, data migration, and deployment, ensuring projects were completed on time and met quality standards.",
+      "Provided prompt and effective technical support to end-users, troubleshooting software issues, guiding staff through problem resolution, and ensuring high customer satisfaction and minimal disruption to hospital operations.",
+      "Designed and developed responsive JSP-based user interfaces integrated with Java Servlets, enabling dynamic data handling and interaction with PostgreSQL databases for secure storage and retrieval of patient and hospital records.",
+      "Utilized iReport tools to design and generate comprehensive JasperReports, creating detailed and insightful reports for hospital management to improve data-driven decision-making and operational efficiency.",
+      "Conducted application demonstrations, workshops, and training sessions for hospital staff and potential clients, clearly explaining software functionality, workflows, and best practices to improve user adoption and confidence.",
+      "Collaborated closely with cross-functional teams to identify, report, and resolve software bugs, implement enhancements, and ensure smooth deployment and maintenance of hospital management software, optimizing workflow efficiency and system reliability."
+    ],
+    "skillId": [1, 2, 3, 5, 13, 11]
+  }
+]

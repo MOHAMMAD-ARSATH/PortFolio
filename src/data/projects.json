@@ -1,0 +1,243 @@
+[
+  {
+    "projectId": 1,
+    "projectName": "Team Member Page",
+    "image": "assets/projects/teammemberpage.png",
+    "purpose": "Developing a responsive team page for ZooglerTech Solutions with structured sections for Leadership/Management, Development, and Sales & Marketing teams.",
+    "detail": [
+      "The project focuses on designing and building a professional team page that highlights ZooglerTech Solutions’ core values, mission, and goals.",
+      "The page begins with a section that showcases the company’s motive and objectives, providing visitors with an overview of the organization’s vision and purpose.",
+      "Team members are displayed department-wise, categorized under Leadership/Management Team, Development Team, and Sales & Marketing Team. Each team member is presented with their image, name, and role in the company, ensuring a clear and engaging introduction.",
+      "The layout is built using semantic HTML5 for structure and styled with CSS to create a modern, user-friendly design and CSS media queries are used to ensure full responsiveness across all screen sizes, including desktops, tablets, and mobile devices.",
+      "Overall, this project showcases the complete ZooglerTech Solutions team in a department-wise manner, enhancing transparency and trust for visitors and clients."
+    ],
+    "skillId": [1, 2],
+    "github": "https://github.com/MOHAMMAD-ARSATH/VeriTech_TeamMemberPage",
+    "link": "https://zooglertechsolutions.netlify.app/"
+  },
+
+  {
+    "projectId": 2,
+    "projectName": "E-Cycles Launch",
+    "image": "assets/projects/ecycleslaunch.png",
+    "purpose": "Showcase the landing page to launch the new range of E-Cycles, showcasing banners, product specs, features, and pre-ordering/contact forms.",
+    "detail": [
+      "The E-Cycles Launch project is a promotional landing page designed with a modern layout highlighting eco-friendly messaging and product features.",
+      "The home section includes a hero banner with motivational text, sales start date, and a live countdown timer until the official launch. A Pre-Order form allows customers to enter details for booking; upon submission, the form redirects to WhatsApp for direct communication.",
+      "The About section showcases cycle specifications such as battery life, motor power, pricing models, available colors, and an image carousel that auto-rotates every 5 seconds. The Features section displays product highlights in interactive cards with logos, names, and descriptions, enhanced by smooth hover animations for better user engagement.",
+      "The Contact section provides a validated form, and upon submission, messages are sent to the admin via SMTP. SweetAlert is used to display confirmation messages for both Contact and Pre-Order forms.",
+      "The project is built with semantic HTML5, styled with CSS for a clean design, and uses JavaScript for form validation, submission handling, and DOM interactivity. Overall, the page enables users to pre-book cycles ahead of the official launch date."
+    ],
+    "skillId": [1, 2, 5],
+    "github": "https://github.com/MOHAMMAD-ARSATH/VeriTech_E-CyclesLaunch",
+    "link": "https://herolectro.netlify.app/"
+  },
+
+  {
+    "projectId": 3,
+    "projectName": "To-Do List",
+    "image": "assets/projects/todolist.png",
+    "purpose": "The To-Do List App helps users manage daily tasks with features such as add, edit, complete, delete, and search, while ensuring data persistence through local storage.",
+    "detail": [
+      "The To-Do List App allows you to add multiple tasks to the list and search tasks to filter them easily. Tasks are seamlessly stored using local storage. The app has two tabs: one for pending tasks and another for completed tasks.",
+      "In the Pending tab, tasks that need to be done are shown in red. You can edit a task or mark it as completed.",
+      "In the Completed tab, completed tasks are shown with a green underline. If you click the “X” mark, the task will be deleted from local storage. If you click the delete icon, a confirmation alert will appear before deletion.",
+      "The layout is built using semantic HTML5 for structure and styled with CSS to create a modern, user-friendly design. DOM manipulation is used for CRUD operations (Create, Read, Update, Delete).",
+      "This project provides dynamic task management with features such as task addition, editing, completion marking, deletion, and a convenient search option for quick retrieval."
+    ],
+    "skillId": [1, 2, 5],
+    "github": "https://github.com/MOHAMMAD-ARSATH/VeriTech_ToDoList",
+    "link": "https://arsath-todolist.netlify.app/"
+  },
+
+  {
+    "projectId": 4,
+    "projectName": "Disney+Hotstar Clone",
+    "image": "assets/projects/disneyhotstarclone.png",
+    "purpose": "Disney+ Hotstar OTT platform clone showcasing movies in carousels and sliders across multiple categories.",
+    "detail": [
+      "The Disney+ Hotstar Clone project replicates the front page user interface of the original platform with a professional look and feel.",
+      "It showcases expertise in DOM manipulation, automated slideshows, and event handling to deliver a polished OTT website replica with enhanced multimedia interaction.",
+      "Features include movie carousels and sliders categorized under sections such as Latest Releases, Free Newly Added, Hotstar Specials, Popular Shows, Popular Movies, and Best of Superheroes",
+      "Each carousel automatically moves through provided movies, creating an engaging viewing experience. In every carousel, the left side displays the movie name, description, and genre, while the right side shows the corresponding movie image.",
+      "Each movie card in the category grid displays the movie image, and on hover, it reveals the movie name, provided sample text description, and an 'Add to Watchlist' button.",
+      "The footer follows the same structure and design as the original Disney+ Hotstar platform for authenticity.",
+      "This project is referenced and cloned from the official Disney+ Hotstar website (<url>https://www.hotstar.com/in/home</url>). Overall, the project elevates the user experience with dynamic carousels, sliders for each movie category, and intuitive navigation."
+    ],
+    "skillId": [1, 2, 5],
+    "github": "https://github.com/MOHAMMAD-ARSATH/VeriTech_DisneyHotstarClone",
+    "link": "https://arsath-disneyhotstar.netlify.app/"
+  },
+
+  {
+    "projectId": 5,
+    "projectName": "Company Website",
+    "image": "assets/projects/companywebiste.png",
+    "purpose": "Developed a responsive and professional company team site, designed to showcase a simple landing page highlighting goals, company information, and team members.",
+    "detail": [
+      "This project involved creating a corporate website with modern design aesthetics using React and Bootstrap.",
+      "A navigation bar enables smooth scrolling effects, enhancing interactivity and responsiveness across all devices. The site highlights company strengths and encourages user engagement with a clean and professional layout.",
+      "The About section displays company information along with detailed descriptions of its mission and values. The Team section introduces employees by showcasing their names, roles, and slogans in an attractive format.",
+      "React-Bootstrap is used to create an attractive look with responsiveness across all devices.",
+      "This project enhances the company’s online presence with a sleek, modern design that communicates professionalism and trust."
+    ],
+    "skillId": [6, 3],
+    "github": "https://github.com/MOHAMMAD-ARSATH/VeriTech_TeamSite",
+    "link": "https://mohammad-arsath.github.io/VeriTech_TeamSite/"
+  },
+
+  {
+    "projectId": 6,
+    "projectName": "Tic Tac Toe Game",
+    "image": "assets/projects/tictactoe.png",
+    "purpose": "A simple Tic Tac Toe game features smooth gameplay, an intuitive UI, and responsive design, providing a fun and modern spin on this timeless battle of X's and O's.",
+    "detail": [
+      "This project is a classic Tic Tac Toe game implemented using React functional components, showcasing state management and conditional rendering.",
+      "The game board allows players to alternate turns, visually indicating the current player. Win conditions and draw scenarios are handled dynamically, with real-time updates. Note that X denotes red color and O denotes blue color.",
+      "A score tracker increases the winner’s score by one. In case of a draw, no points are awarded. The reset button clears the board for the next game, while refreshing the page resets the scores. react-toastify is used to display messages announcing the winner or declaring a draw, adding an interactive touch to the gameplay.",
+      "Game instructions are displayed clearly: Player X always starts first, and players take turns marking the board until one wins or the match ends in a draw.",
+      "The game logic automatically checks winning patterns across rows, columns, and diagonals to determine outcomes instantly. A draw scenario is detected when all cells are filled without any winning combination, and an appropriate notification is shown.",
+      "Reusable React components are used for the board and cells, making the code modular and easy to maintain. CSS and responsive layout ensure the game adapts seamlessly to desktop, tablet, and mobile screens.",
+      "The project demonstrates a clean UI with minimal design principles, ensuring the focus remains on the gameplay experience while adding real-world functionality like score tracking and interactive notifications."
+    ],
+    "skillId": [6, 2],
+    "github": "https://github.com/MOHAMMAD-ARSATH/VeriTech_TicTacToeGame",
+    "link": "https://mohammad-arsath.github.io/VeriTech_TicTacToeGame/"
+  },
+
+  {
+    "projectId": 7,
+    "projectName": "Chat App",
+    "image": "assets/projects/chatapp.png",
+    "purpose": "A real-time chat application that supports Google login and persistent messaging.",
+    "detail": [
+      "This project is a real-time chat application built with React for the frontend, Tailwind CSS for a clean and responsive UI, and Firebase for the backend.",
+      "Key features include Google OAuth authentication, real-time messaging with timestamps, and user presence detection. Each user is identified by their Google account name, ensuring a personalized experience.",
+      "Messages are stored and fetched using Firestore, with rules implemented to ensure basic security. The app also supports logout and session persistence for seamless usage.",
+      "The fully responsive design allows users to interact with others in real-time across devices, highlighting strong integration of frontend and backend technologies."
+    ],
+    "skillId": [6, 4, 12],
+    "github": "https://github.com/MOHAMMAD-ARSATH/VeriTech_ChatApp",
+    "link": "https://chatapp-25a17.web.app/"
+  },
+
+  {
+    "projectId": 8,
+    "projectName": "Netflix Clone",
+    "image": "assets/projects/netflixclone.png",
+    "purpose": "Replicates the look and feel of Netflix, allowing users to sign up, log in, browse content, and save their favorite movies for a personalized experience.",
+    "detail": [
+      "The Netflix Clone replicates the look and feel of Netflix, built using React.js and Tailwind CSS for a modern and responsive design. It features a hero banner, horizontal category sliders, and interactive card hover effects to enhance user engagement.",
+      "Movie data is dynamically fetched from the TMDB API, categorized by upcoming, trending, top-rated, comedy, and popular movies, providing users with an extensive and real-time movie collection.",
+      "The application allows users to sign up, log in, browse content, and save their favorite movies for personalized interaction. In the profile section, users can view their saved movies and also remove them when desired. Firebase is integrated for secure user authentication and data management.",
+      "This project is referenced and cloned from the official Netflix website (<url>https://www.netflix.com/in/</url>) and it was built with Vite.js for fast development, Tailwind CSS for responsive styling, and Firebase for user authentication, effectively showcasing a Netflix-like platform."
+    ],
+    "skillId": [6, 4, 12],
+    "github": "https://github.com/MOHAMMAD-ARSATH/VeriTech_NetFlixClone",
+    "link": "https://netflixclone-693da.web.app/"
+  },
+
+  {
+    "projectId": 9,
+    "projectName": "Aurumm",
+    "image": "assets/projects/aurumm.png",
+    "purpose": "Aurumm streamlines jewellery store management by offering digital solutions for gold saving schemes, sales, and inventory. It enables clients to engage seamlessly while allowing admins to manage customer interactions effectively.",
+    "detail": [
+      "Aurumm is a web application featuring both user and admin interfaces to enhance jewellery store management.",
+      "The User Panel provides an intuitive interface for customers to access services such as gold saving schemes, online sales platforms, and inventory management. It introduces AU Pay, AU Sales, and AU Shop, transforming the way jewellery stores operate with modern digital solutions. The platform also showcases the future helps under the 'Helps' and also showcases trusted brands and client testimonials under the 'Our Clients' section.",
+      "The Admin Panel enables administrators to efficiently oversee and manage client contact details through a dedicated dashboard. It can be accessed at: <url>https://arsath-aurumm.vercel.app/admin</url>.",
+      "The frontend is built with React and styled using Bootstrap, ensuring a professional, responsive, and modern user interface. Axios is used for seamless API integration, while React-Toastify provides confirmation messages for the contact form.",
+      "The backend is developed with Node.js and integrated with MongoDB Atlas, offering secure and scalable database connectivity. A single schema is implemented to manage contact form submissions effectively.",
+      "This Aurumm project had done referenced and cloned a few section from the official site (<url>https://aurumm.co/</url>) and is designed to deliver a seamless and efficient user experience."
+    ],
+    "skillId": [6, 3, 7, 8, 9],
+    "github": "https://github.com/MOHAMMAD-ARSATH/ATTS_Aurumm-Frontend",
+    "link": "https://arsath-aurumm.vercel.app/"
+  },
+
+  {
+    "projectId": 10,
+    "projectName": "Job Listing Management",
+    "image": "assets/projects/joblisting.png",
+    "purpose": "The platform enables job seekers to seamlessly browse, view, and apply for job opportunities, while allowing administrators to efficiently create, manage, and track job postings and applications.",
+    "detail": [
+      "The Job Listing Web Application is a career platform that offers both user and admin interfaces for managing job postings and applications.",
+      "On the user side, job seekers can easily browse current job openings, with the most recently posted jobs highlighted to encourage timely applications. Users can review detailed job descriptions, including roles, responsibilities, and locations provided by the company, and then apply directly through the platform by submitting their details, resume, and cover letter. They also have the flexibility to apply to multiple job openings seamlessly.",
+      "On the admin side, the platform equips administrators with tools to create, manage, and monitor job postings and applications. Admins can add, edit, or delete job postings and view detailed application forms submitted by users, including uploaded resumes and cover letters. This ensures efficient tracking and management of recruitment activities. It can be accessed at: <url>https://clear-code-jobs.vercel.app/admin</url>.",
+      "The application is developed using React for the frontend, styled with Bootstrap to deliver a modern, professional, and responsive user interface. Axios is used for seamless API integration, while React-Toastify provides interactive notifications for actions such as applying to jobs or updating postings.",
+      "The backend is powered by Node.js and MongoDB Atlas, ensuring secure and scalable data storage. Two schemas were designed for effective data management: one for job listings and another for application forms. To handle file uploads such as resumes and cover letters in PDF or DOC formats, Multer is used for local storage during development, while Cloudinary is integrated to manage files in production for secure and reliable storage.",
+      "This portal project was developed with reference to the official site (<url>https://careers.zohocorp.com/jobs/careers/</url>). Overall, this project ensures a smooth and efficient experience for both job seekers and administrators, simplifying the process of applying, managing, and tracking job opportunities."
+    ],
+    "skillId": [6, 3, 7, 8, 9],
+    "github": "https://github.com/MOHAMMAD-ARSATH/ClearCode_JobListingSystem-Frontend",
+    "link": "https://clear-code-jobs.vercel.app/"
+  },
+
+  {
+    "projectId": 11,
+    "projectName": "Hotel Booking Management",
+    "image": "assets/projects/hotelbooking.png",
+    "purpose": "A hotel booking web app that displays hotel information, images, and allows users to book specific rooms.",
+    "detail": [
+      "The Hotel Booking Web App offers both user and admin panels to showcase hotel and room management. Users can register, log in, explore hotel details with images, and view room-specific features before making bookings. They also have the flexibility to cancel bookings directly from their booking dashboard, provided it is done at least one day before the check-in date, ensuring a smooth and user-friendly experience.",
+      "For administrators, the platform enables efficient management of rooms, bookings, inquiries, and user data. Admins can create, modify, and delete multiple rooms while also setting facility options to ensure flexibility in hotel offerings. The booking list feature makes it simple to track and manage reservations in real-time, giving hotel staff complete control. Note: For admin login credentials, Email: hotel@gmail.com, Password: Admin",
+      "The frontend is developed using React and styled with Ant Design (AntD) to deliver a modern, styled and professional interface. Axios ensures seamless API integration with the backend, while SweetAlert enhances user interactions through engaging alerts and confirmations. Additionally, Stripe test-case payment integration is implemented on the frontend to simulate secure and smooth booking confirmations",
+      "The backend is built with Node.js and integrated with MongoDB Atlas, providing secure and scalable database connectivity for storing application data. Four schemas were created to manage data effectively: registered users, booking details, room creation, and contact information.",
+      "This hotel project had done referenced and cloned a few section from the official site (<url>https://cjpallazzio.com/</url>). Overall, the project ensures efficiency in handling both user bookings and hotel management tasks."
+    ],
+    "skillId": [6, 3, 7, 8, 9],
+    "github": "https://github.com/MOHAMMAD-ARSATH/SmartCliff_HotelBookingManagement-Frontend",
+    "link": "https://hotelpallazzio.vercel.app/"
+  },
+
+  {
+    "projectId": 12,
+    "projectName": "Ship Tracker",
+    "image": "assets/projects/shiptracker.png",
+    "purpose": "Track SpaceX ships with real-time search and detailed ship views using SpaceX API",
+    "detail": [
+      "Ship Tracker is a data-driven web application designed to provide real-time information about SpaceX’s ships using their public API.",
+      "The homepage features a live search option, enabling users to quickly filter ships by name or home port. Each ship card presents the ship image and detailed information including IMO, MMSI, status, type, and home port, etc. Users can access a dedicated detail view that displays extended ship information along with an external link to the official tracking map.",
+      "The application uses Axios for SpaceX API integration and ensures smooth data fetching with proper error handling and loading states. It also checks the online status of ships and displays a connection message if the ship is offline. Tailwind CSS is used to create a modern, responsive, and visually appealing interface that adapts to different screen sizes.",
+      "The project highlights the integration of external APIs, client-side search and filtering logic, and dynamic ship tracking features. Overall, Ship Tracker demonstrates a professional approach to building real-time, user-friendly applications.."
+    ],
+    "skillId": [6, 3],
+    "github": "https://github.com/MOHAMMAD-ARSATH/SmartCliff_ShipTracker",
+    "link": "https://spacex-shiptracker.vercel.app/"
+  },
+
+  {
+    "projectId": 13,
+    "projectName": "Digital Resume",
+    "image": "assets/projects/digitalresume.png",
+    "purpose": "Developing a responsive digital resume page with structured sections",
+    "detail": [
+      "The project focuses on designing and building a digital resume page with a clean and modern layout.",
+      "It begins with sections that showcase contact information, career objectives, work experience, internships, education, skills, languages known, and areas of interest.",
+      "The layout is built using semantic HTML5 for structure and styled with CSS to ensure a user-friendly design.",
+      "CSS media queries are implemented to provide full responsiveness across desktops, tablets, and mobile devices.",
+      "Overall, this project demonstrates the ability to create a professional, accessible, and fully responsive digital resume."
+    ],
+    "skillId": [1, 2],
+    "github": "https://github.com/MOHAMMAD-ARSATH/DigitalResume",
+    "link": "https://arsath-digital-resume.vercel.app/"
+  },
+
+  {
+    "projectId": 14,
+    "projectName": "PortFolio",
+    "image": "assets/projects/portfolio.png",
+    "purpose": "Developing a responsive personal portfolio website to showcase my professional profile, skills, and projects in an engaging and modern way.",
+    "detail": [
+      "The portfolio project is developed using React.js for the frontend, styled with Tailwind CSS for a sleek, responsive UI, and animated using Framer Motion for smooth transitions and interactive effects.",
+      "Tailwind CSS is used to create a modern, responsive layout compatible with mobile, tablet, and desktop screens, and Framer Motion is integrated for smooth animations and interactive transitions, enhancing user engagement across sections.",
+      "This project includes Home, About, Experiences, Projects, Skills, and Contact sections with seamless navigation and cross-route scroll handling.",
+      "All sections and their data are dynamically generated from JSON, including skill mapping, GitHub links, and live project links.",
+      "In the Contact section, the form implements strict validation, providing real-time feedback and professionally tracking inquiries using Getform.io.",
+      "Overall, this project presents my professional identity, technical expertise, and hands-on project experience in a polished, interactive manner, making it suitable for potential employers, clients, and collaborators."
+    ],
+    "skillId": [6, 4],
+    "github": "https://github.com/MOHAMMAD-ARSATH/PortFolio",
+    "link": ""
+  }
+]
