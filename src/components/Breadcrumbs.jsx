@@ -9,7 +9,7 @@ const Breadcrumbs = ({ paths }) => {
   const activePath = paths[paths.length - 1];
 
   return (
-    <div className="w-full py-20 h-[40vh] sm:h-[35vh] md:h-[30vh] bg-gradient-to-b from-gray-200 to-gray-600 text-black">
+    <div className="w-full py-20 h-[40vh] sm:h-[35vh] md:h-[32vh] bg-gradient-to-b from-gray-200 to-gray-600 text-black">
       <div className="max-w-screen-lg mx-auto px-4 py-6">
         <h2 className="text-2xl md:text-4xl font-extrabold tracking-wide mb-2">
           {activePath.label}
