@@ -30,6 +30,26 @@ const SocialLinks = () => {
     setTimeout(() => setAlertMsg(""), 10000);
   };
 
+  const handleDownloadResume = async (e) => {
+  e.preventDefault();
+  try {
+    const res = await fetch("/vercel-json");
+    if (!res.ok) throw new Error("Failed to download resume");
+
+    const blob = await res.blob();
+    const url = window.URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = `${aboutData.name}_Resume.pdf`;
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
+    window.URL.revokeObjectURL(url);
+  } catch (error) {
+    console.error("Error downloading resume:", error);
+  }
+};
+  
   const links = [
     {
       id: 1,
@@ -74,8 +94,9 @@ const SocialLinks = () => {
       id: 6,
       label: "Resume",
       icon: <BsFillPersonLinesFill size={30} />,
-      href: "/assets/resume.pdf",
-      download: `${aboutData.name}_Resume.pdf`,
+      //href: "/assets/resume.pdf",
+      //download: `${aboutData.name}_Resume.pdf`,
+      onClick: handleDownloadResume,
       style: "rounded-br-md",
     },
   ];
