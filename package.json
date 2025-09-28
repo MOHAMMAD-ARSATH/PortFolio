@@ -22,7 +22,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "node vercel-json.js",
+    "predeploy": "node src/vercel-json.js",
     "deploy": "vercel --prod"
   },
   "eslintConfig": {
