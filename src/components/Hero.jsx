@@ -40,7 +40,8 @@ const Hero = () => {
           transition={{ duration: 1 }}
         >
           <h2 className="text-4xl sm:text-4xl font-bold text-white">
-            Hi, I'm <span className="text-cyan-400">{aboutData.name}</span>
+            Hi, I'm {window.innerWidth < 1024 && <br />}
+            <span className="text-cyan-400">{aboutData.name}</span>
           </h2>
 
           <h3 className="text-2xl sm:text-3xl mt-2 font-semibold text-white-400 min-h-[36px] md:min-h-[48px]">
