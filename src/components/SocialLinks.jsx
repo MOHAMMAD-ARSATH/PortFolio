@@ -30,25 +30,14 @@ const SocialLinks = () => {
     setTimeout(() => setAlertMsg(""), 10000);
   };
 
-  const handleDownloadResume = async (e) => {
-  e.preventDefault();
-  try {
-    const res = await fetch("/vercel-json");
-    if (!res.ok) throw new Error("Failed to download resume");
-
-    const blob = await res.blob();
-    const url = window.URL.createObjectURL(blob);
+  const handleDownloadResume = (e) => {
+    e.preventDefault();
+    const url = "/assets/resume.pdf"; 
     const a = document.createElement("a");
     a.href = url;
     a.download = `${aboutData.name}_Resume.pdf`;
-    document.body.appendChild(a);
     a.click();
-    a.remove();
-    window.URL.revokeObjectURL(url);
-  } catch (error) {
-    console.error("Error downloading resume:", error);
-  }
-};
+  };
   
   const links = [
     {
