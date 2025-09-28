@@ -1,4 +1,6 @@
 import fs from "fs";
+import path from "path";
+
 import aboutData from "./src/data/about.json" assert { type: "json" };
 
 const vercelConfig = {
@@ -16,5 +18,5 @@ const vercelConfig = {
   ]
 };
 
-fs.writeFileSync("vercel.json", JSON.stringify(vercelConfig, null, 2));
-console.log(`✅ vercel.json updated with ${aboutData.name}_Resume`);
+fs.writeFileSync(path.join(process.cwd(), "vercel.json"), JSON.stringify(vercelConfig, null, 2));
+console.log(`✅ vercel.json updated with ${aboutData.name}_Resume.pdf`);
