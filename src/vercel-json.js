@@ -1,5 +1,5 @@
 import fs from "fs";
-import aboutData from "./src/data/about.json" assert { type: "json" };
+import aboutData from "./data/about.json" assert { type: "json" };
 
 const vercelConfig = {
   headers: [
