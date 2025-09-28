@@ -30,13 +30,25 @@ const SocialLinks = () => {
     setTimeout(() => setAlertMsg(""), 10000);
   };
 
-  const handleDownloadResume = (e) => {
+  const handleDownloadResume = async (e) => {
     e.preventDefault();
-    const url = "/assets/resume.pdf"; 
-    const a = document.createElement("a");
-    a.href = url;
-    a.download = `${aboutData.name}_Resume.pdf`;
-    a.click();
+    try {
+      // Fetch the resume from the public folder
+      const res = await fetch("/assets/resume.pdf");
+      if (!res.ok) throw new Error("Failed to fetch resume");
+
+      const blob = await res.blob();
+      const url = window.URL.createObjectURL(blob);
+
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = `${aboutData.name}_Resume.pdf`;
+      a.click();
+
+      window.URL.revokeObjectURL(url); 
+    } catch (error) {
+      console.error("Error downloading resume:", error);
+    }
   };
   
   const links = [
