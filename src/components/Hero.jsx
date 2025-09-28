@@ -31,7 +31,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <div className="min-h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 text-white py-20 md:pt-60">
+    <div className="min-h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 text-white py-20 md:flex md:items-center">
       <div className="max-w-screen-xl mx-auto flex flex-col-reverse md:flex-row items-center justify-center h-full px-6 gap-10">
         <motion.div
           className="flex flex-col justify-center h-full text-center md:text-left"
