@@ -25,7 +25,7 @@
       "The E-Cycles Launch Project is a promotional landing page for pre-booking and booking, designed with a modern layout that emphasizes eco-friendly messaging and product features.",
       "The Home section features a hero banner with motivational text, the sales start date, and a live countdown timer to the official launch. A pre-order or booking form allows customers to enter their details, and upon submission, the form redirects to WhatsApp for direct communication.",
       "The About section highlights cycle specifications such as battery life, motor power, pricing models, available colors, and an image carousel that auto-rotates every 5 seconds.",
-      "The Features section showcases product highlights in interactive cards with icons, names, and descriptions, enhanced with smooth hover animations for improved user engagement."
+      "The Features section showcases product highlights in interactive cards with icons, names, and descriptions, enhanced with smooth hover animations for improved user engagement.",
       "The Contact section includes a validated form that sends messages to the admin via SMTP ElasticEmail upon submission. SweetAlert is used to display confirmation messages for both the Contact and Pre-Order/Booking forms.",
       "The project is built with semantic HTML5, styled with CSS for a clean design, and uses JavaScript for form validation, submission handling, and DOM interactivity.",
       "Overall, the page provides users with a seamless experience to pre-book cycles before the official launch and continue booking afterward."
